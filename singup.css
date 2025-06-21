@@ -1,0 +1,69 @@
+/* Login & Signup Sections */
+.login,
+.signup {
+    padding: 40px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.login h1,
+.signup h1 {
+    margin-bottom: 20px;
+    color: #A435F0;
+}
+
+.login_form,
+.signup_form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.login_form label,
+.signup_form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login_form input,
+.signup_form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login_form button,
+.signup_form button {
+    background: #A435F0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.login_form button:hover,
+.signup_form button:hover {
+    background: #7d29c3;
+}
+
+.form-switch {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.form-switch a {
+    color: #A435F0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-switch a:hover {
+    text-decoration: underline;
+}
